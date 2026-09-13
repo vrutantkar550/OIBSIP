@@ -1,1 +1,2 @@
-
+#!/bin/bash
+kaggle datasets download maxhorowitz/nflplaybyplay2009to2016
