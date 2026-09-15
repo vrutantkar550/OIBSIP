@@ -21,7 +21,6 @@ Demonstrate a full data cleaning workflow on a real dataset:
 - **Size:** 362,447 rows × 102 columns
 - **Content:** Down/distance, field position, play description, play outcome, scoring, and advanced metrics (EPA, WPA, win probability)
 
-> **Key insight this project relies on:** most of this dataset's "missing data" is *structural*, not a defect. A field like `PuntResult` is only ever populated on punt plays — it's correctly `NaN` on every pass or run play. Treating that the same as genuine missing data would lead to nonsensical imputation. The cleaning process explicitly separates structural NA from real, fixable data quality problems.
 
 ## 🛠️ Tech Stack
 
@@ -79,7 +78,6 @@ Demonstrate a full data cleaning workflow on a real dataset:
    ```
 4. Run all cells (`Kernel → Restart & Run All`).
 
-> ⚠️ **Note on file size:** the raw and cleaned CSVs are large (~230MB). They may be slow to open in spreadsheet tools like Excel — pandas or a database/SQL tool is recommended instead.
 
 ## 📄 License
 
