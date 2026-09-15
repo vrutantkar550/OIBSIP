@@ -216,25 +216,21 @@ OIBSIP/
 │
 ├── DataAnalytics-L1-EDARetailSales/
 │   ├── dataset/
-│   ├── notebook/
 │   ├── outputs/
 │   └── README.md
 │
 ├── DataAnalytics-L1-CleaningData/
 │   ├── dataset/
-│   ├── notebook/
 │   ├── outputs/
 │   └── README.md
 │
 ├── DataAnalytics-L2-HousePricePrediction/
 │   ├── dataset/
-│   ├── notebook/
 │   ├── outputs/
 │   └── README.md
 │
 └── DataAnalytics-L2-WineQualityPrediction/
     ├── dataset/
-    ├── notebook/
     ├── outputs/
     └── README.md
 ```
@@ -297,5 +293,5 @@ These four tasks provide practical experience in transforming raw datasets into 
 
 **Vrutant Kar**
 
-Data Analytics Intern
-OASIS INFOBYTE SIP Internship
+Data Analytics Intern<b>
+OASIS INFOBYTE </b>SIP Internship
